@@ -3,16 +3,35 @@
 body {
 	font-family: sans-serif;
 }
+.kontejner {
+	display:flex;
+}
 
 .sloupec {
 	padding: 20px;
 }
 
-.hlavicka { background-color: #2ecc71; }
-.hlavni   { background-color: #f1c40f; }
-.levy     { background-color: #3498db; }
-.pravy    { background-color: #e74c3c; }
-.paticka  { background-color: #9b59b6; }
+.hlavicka { 
+	background-color: #2ecc71;
+	position: relative;
+ }
+.hlavni   { 
+	background-color: #f1c40f;
+	order: 2;
+ }
+.levy {
+	background-color: #3498db;
+	/*order: -1;*/
+}
+.pravy    {
+	background-color: #e74c3c;
+	order: 3;
+ }
+.paticka  { 
+	display: none;
+	background-color: #9b59b6; 
+}
+
 
 /* ------------- pod čáru přijdou tvé styly ------------- */
 
