@@ -18,20 +18,22 @@ body {
 .hlavni   { 
 	background-color: #f1c40f;
 	order: 2;
+	flex-grow: 1;
  }
 .levy {
 	background-color: #3498db;
 	/*order: -1;*/
+	width: 200px;
+	flex-shrink: 0;
 }
 .pravy    {
 	background-color: #e74c3c;
 	order: 3;
+	width: 150px;
+	flex-shrink: 0;
  }
 .paticka  { 
 	display: none;
 	background-color: #9b59b6; 
 }
-
-
-/* ------------- pod čáru přijdou tvé styly ------------- */
 
